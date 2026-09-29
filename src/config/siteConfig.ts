@@ -45,13 +45,13 @@ export const siteConfig: SiteConfig = {
 	title: "Cc's Blog",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	//subtitle: "Demo site",
 
 	// 站点 URL
 	site_url: "https://voidcip.com",
 
 	// 站点描述
-	description:
+	//description:
 		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
 
 	// 站点关键词
@@ -235,7 +235,7 @@ export const siteConfig: SiteConfig = {
 		// 文章页底部的"上次编辑时间"卡片开关
 		showLastModified: true,
 		// 文章过期阈值（天数），超过此天数才显示"上次编辑"卡片
-		outdatedThreshold: 30,
+		outdatedThreshold: 365,
 		// 是否显示文章页的分享按钮
 		share: true,
 		// 是否显示上一篇/下一篇文章导航
@@ -260,10 +260,10 @@ export const siteConfig: SiteConfig = {
 	},
 
 	// ── Bilibili配置 ──────────────────────────────────
-	bilibili: {
+	//bilibili: {
 		// 你的 Bilibili 用户 UID
-		uid: "38932988",
-	},
+	//	uid: "38932988",
+	//},
 
 	// ── 番组计划bangumi配置 ──────────────────────────────────
 	bangumi: {
